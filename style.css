@@ -1,0 +1,18 @@
+header h1{
+    color: darkred;
+    text-align: center;
+}
+main h2{
+    color: blueviolet;
+}
+
+ul li{
+    color: darkgoldenrod;
+}
+
+#fruit-title{
+    color:rgb(30, 115, 118);
+}
+.fruits-container .fruits-ul li{
+    color: rgb(20, 56, 201);
+}
