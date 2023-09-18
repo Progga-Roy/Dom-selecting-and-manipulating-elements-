@@ -8,19 +8,29 @@
 </head>
 <body>
     
+     <style> 
+        .new-section{
+            background-color: antiquewhite;
+            border: 2px solid black;
+        }
+        .new-section h1{
+            text-transform: uppercase;
+        }
+        
+    </style> 
     <header>
         <h1>Welcome to DOM</h1>
         <!-- <h1>Welcome to DOM2</h1>
         <h1>Welcome to DOM3</h1> -->
         
     </header>
-    <main>
+    <main id="container">
          <section>
             <h2 class="dom">DOM Introduction : Document Object Model</h2>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptatem iste ea eum modi placeat velit magnam, eos pariatur nesciunt!</p>
 
-            <ul>
+            <ul id="name-list">
              <li>Rahul</li>
              <li>Chahul</li>
              <li>Kahul</li>
@@ -37,8 +47,8 @@
                 <li>Black Barry</li>
             </ul>
          </section>
-         <section>
-            <h2 class="dom">Places I like to visit</h2>
+         <section id="places-container" class="places">
+            <h2  class="dom">Places I like to visit</h2>
             <ul class="places" id="fruit-title">
                 <li>Sundarbans</li>
                 <li>Bandarbans</li>
@@ -46,7 +56,7 @@
                 <li>Khagrachari</li>
             </ul>
          </section>
-         <section>
+         <section id="dress-container">
             <h2 id="dress">My favorite dresses which I usually ware.</h2>
             <ul id="dress-ul">
                 <li class="">Top</li>
@@ -54,12 +64,17 @@
                 <li>Kamij</li>
                 <li>Saree</li>
             </ul>
+
+      
          </section>
     </main>
 
 
 
     <script src="dom.js"></script>
+    <script src="append.js"></script>
+    <script src="style.js"></script>
+  
 
 
 </body>
